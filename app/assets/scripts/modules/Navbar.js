@@ -5,7 +5,7 @@ class Navbar {
     this.events();
   }
   events() {
-    this.navToggle.addEventListener("click", () => toggleNavbar());
+    this.navToggle.addEventListener("click", () => this.toggleNavbar());
   }
 
   toggleNavbar() {
